@@ -9,3 +9,5 @@
 [•Gerenciando serviços via powershell.](https://github.com/matheussdsi/Windows/blob/ef282fb9418bab37ac993d11eb64ffc87bba5755/Managing%20_Service.ps1)
 
 [•Desligando e Reiniciando computadores Via Powershell.](https://github.com/matheussdsi/Windows/blob/0f6c65f7cad021790f18b4aba13a844cf0eb9f08/shutdown_reset_remote.ps1)
+
+[•Export Zone DNS.](https://github.com/matheussdsi/Windows/blob/main/DNS_EXPORT.ps1)
