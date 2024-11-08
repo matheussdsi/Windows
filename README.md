@@ -12,4 +12,4 @@
 
 [•Export Zone DNS.](https://github.com/matheussdsi/Windows/blob/main/DNS_EXPORT.ps1)
 
-[•Import Zone DNS.](https://github.com/matheussdsi/Windows/blob/main/DNS_EXPORT.ps1](https://github.com/matheussdsi/Windows/blob/main/import_DNS.ps1)
+[•Import Zone DNS.] (https://github.com/matheussdsi/Windows/blob/main/import_DNS.ps1)
