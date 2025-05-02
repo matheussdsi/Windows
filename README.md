@@ -52,3 +52,36 @@ Scripts para automação de tarefas no Hyper-V usando PowerShell.
 
 - 🔁 [Iniciar ou Parar Máquina Virtual](https://github.com/matheussdsi/Hyper-V/blob/c99f62aacbb581c8ad9a8267e6c5436b372f0322/Start_Stop.ps1)  
   Script simples para iniciar ou desligar uma VM diretamente via linha de comando PowerShell.
+
+---
+
+### 🧩 **Active Directory**
+
+Scripts para auxiliar na administração do Active Directory de forma automatizada.
+
+- 🗂️ [Listar Contas Desativadas](https://github.com/matheussdsi/Active_Directory_repository/blob/c2b9421b34dc49799df9638069aa8a98af4063d1/Contas_desativas.ps1)  
+  Lista todas as contas de usuário que estão desativadas no domínio.
+
+- 🚫 [Desativar Usuários em Massa](https://github.com/matheussdsi/Active_Directory_repository/blob/1a8886640f46c0faddb6f76a1276e3c815453d65/Disable_Account.ps1)  
+  Desativa múltiplos usuários com base em uma lista, ideal para desligamentos em lote.
+
+- 🔄 [Trocar UPN em Massa](https://github.com/matheussdsi/Active_Directory_repository/blob/a543833739b79a964f92af53b51d05069652412a/change_UPN_OU.ps1)  
+  Atualiza o UPN dos usuários de uma OU para refletir novos domínios ou padrões.
+
+- 📆 [Remover Expiração de Contas em Massa](https://github.com/matheussdsi/Active_Directory_repository/blob/a543833739b79a964f92af53b51d05069652412a/limpar_ADAccountExpiration.ps1)  
+  Remove a data de expiração definida em contas de usuários.
+
+- 🕵️‍♂️ [Revisar Usuários em Grupos de Gerência](https://github.com/matheussdsi/Active_Directory_repository/blob/2df6ed394a9564e840a1f134d18fb7a7a23ab979/AD%202.0.ps1)  
+  Lista usuários que estão em grupos sensíveis como Admins do Exchange e AD.
+
+- 💤 [Revisar Usuários Inativos por Dias](https://github.com/matheussdsi/Active_Directory_repository/blob/d24abbfe3410e70bf3bc34624114173e0a6d4a88/Users_Inat.ps1)  
+  Filtra usuários que não acessam o domínio há X dias, facilitando limpezas periódicas.
+
+- 🔐 [Verificar Política de Senha da Organização](https://github.com/matheussdsi/Active_Directory_repository/blob/fb02d8f8d534b2e9735072814e09e28bb3628e6b/AD%202.0.ps1)  
+  Exibe informações da política de senha aplicada no domínio.
+
+- 📅 [Revisar Última Alteração de Senha por OU](https://github.com/matheussdsi/Active_Directory_repository/blob/ea7e23d0e65cfe433dba1aa705b29d8a2dfe688c/PasswordLastSet.Ps1)  
+  Mostra a data da última alteração de senha dos usuários por unidade organizacional.
+
+- 📆 [Revisar Alteração de Senha por Data Específica](https://github.com/matheussdsi/Active_Directory_repository/blob/23912c2b0ce6e0e4b025b85e95a088388489e3c5/PasswordLastSet_data.ps1)  
+  Lista usuários que alteraram a senha até uma determinada data, útil para auditorias.
