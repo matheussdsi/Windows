@@ -23,7 +23,7 @@ $Certificate = New-SelfSignedCertificate `
     -CertStoreLocation "Cert:\CurrentUser\My"
 
 # Caminho de exportação
-$exportPath = "C:\Users\Matheus\OneDrive\Scripts De Agilidade Diaria\2025\Certificates"
+$exportPath = "C:\Certiicados\Certificates"
 
 # Nome do arquivo .CER
 $certname = "$certSubject.cer"
@@ -35,7 +35,7 @@ Export-Certificate `
 
 # Convertendo a senha para SecureString
 # (⚠️ Troque a senha abaixo por uma segura e armazenada corretamente em produção!)
-$Pwd = ConvertTo-SecureString -String "Hc374@gl@" -Force -AsPlainText
+$Pwd = ConvertTo-SecureString -String "P@ssw0rd" -Force -AsPlainText
 
 # Exportando o certificado completo (.pfx)
 Export-PfxCertificate `
